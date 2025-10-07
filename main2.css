@@ -1,0 +1,172 @@
+html, body {
+    height: 150%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 150%;
+    background: linear-gradient(to bottom,#ff0000,#0037ff);
+}
+
+.quiz-title {
+    text-align: center;
+    background-color:honeydew;
+    color: black;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    animation: drop-down-anim 3s ;
+}
+
+@keyframes drop-down-anim {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+.quiz-container{
+    max-width: 800px;
+    height: 350px;
+    background-color: teal;
+    margin:auto;
+    margin-top: 35px;
+    border-radius: 20px;    
+    padding: 25px;
+}
+
+.progress-bar-bg{
+    background-color: grey;
+    width: 90%;
+    height: 12px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.progress-bar-fill{
+    background-color:lime;
+    width: 20%;
+    height: 12px;
+    border-radius: 10px;
+}
+
+.question {
+    margin-top: 25px;
+    color: black;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.drop-down{
+    width: 47%;
+    height: 30px;
+    color: cornflowerblue;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    margin: auto;
+    display: block;
+    background-color: darkgreen;
+    font-weight: 800;
+}
+
+.start-btn{
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: darkorange;
+    margin: auto;
+    text-align: center;
+    border-color: cyan;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ff0000;
+    margin-top: 50px;
+    display: block;
+    font-size: 50px;    
+}
+
+.start-btn:hover{
+    background-color: aqua;
+}
+
+.timer{
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    width: 150px;
+    border-radius: 60%;
+    padding: 60px 10px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: darkgreen;
+}
+
+.option-container {
+    margin-top: 20px;
+    height: fit-content;
+}
+
+.option-btn {
+    display: block;
+    margin: auto;
+    height: 75%;
+    font-size: 20px;
+    font-family: cursive;    
+    border-radius: 30%;
+    width: 400px;
+}
+
+.option-btn:hover{
+    background-color: wheat;
+    color: blue;
+}
+
+.score-label{
+    color:red;
+    font-size: 18px;
+    font-family: cursive;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.feedback-label{
+    color:red;
+    font-size: 12px;
+    font-family: cursive;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.bgm-selector{
+    display:block;
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    height: 50px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.music-btn{
+    display:block;
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    height: 50px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    border-radius: 30px;
+    background-color: blue;
+    color: burlywood;
+}

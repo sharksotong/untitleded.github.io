@@ -1,0 +1,123 @@
+.main-title {
+    background-color: black;
+    color:yellow;
+    font-size: 30px;
+    text-align: center ;
+    font-family: cursive;
+}
+
+.main-pic {
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border: solid 10px black;
+    border-radius: 10px;
+}
+
+.main-table {
+    width: 90%;
+    margin: auto;
+    background-color: burlywood;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    font-weight: normal;
+}
+
+.main-heading {
+    width: 90%;
+    margin: auto;
+    background-color: black;
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+.main-table td {
+    padding: 20px;
+}
+
+.navbar{
+    background-color: darkgoldenrod
+}
+
+
+.fade-in {
+    background-color: darkturquoise;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+    color: gold;
+    opacity: 0;
+    animation: fade-in-anim 2s ease-in forwards;
+    padding: 30px;
+    height: 55px;
+}
+
+@keyframes fade-in-anim {
+    from{
+        opacity: 0;
+        font-size: 1px;
+    }
+
+    to {
+        opacity: 1;
+        font-size: 40px;
+    }
+}
+
+
+.color-changing {    
+    background-color:black;
+    font-size: 70px;
+    text-align: center;
+    padding: 50px;
+    height: 55px;
+    color: whitesmoke;
+    animation: color-anim 0.3s infinite;
+}
+
+@keyframes color-anim {
+     0% {color:magenta;}
+    20% {color: lime;}
+    40% {color: cyan;}
+    60% {color: red;}
+    80% {color: yellow;}
+    100%{color: rgb(172, 104, 224);}
+}
+
+.glide-in-out {
+    background-color:aquamarine;
+    font-size: 36px;
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+    padding: 10px;
+    width: 100% ;
+    animation: glide-x-anim 6s ease-in-out infinite;
+}
+
+@keyframes glide-x-anim {
+    0% {transform: translatex(-100%);}
+    20% {transform: translatex(0%);}
+    60% {transform: translatex(0%);}
+    80% {transform: translatex(100%);}
+    100% {transform: translatex(100%);}
+}
+
+.glide-in-out2 {
+    font-size: 36px;
+    text-align: center;
+    font-family: fantasy;
+    color: blanchedalmond;
+    padding: 10px;
+    width: 100% ;
+    animation: glide-x-anim 6s ease-in-out infinite;
+}
+
